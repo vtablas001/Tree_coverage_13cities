@@ -1,6 +1,6 @@
 # Geospatial Vegetation Remote Sensing Analytics across Latin American Biomes and Cities
 
-*An independent Applied AI and Data Science project following vegetation change from 1992 to 2026*
+*Applied AI and Data Science project following vegetation change from 1992 to 2026*
 
 > A satellite image captures a place for an instant. Thirty-four years of images can begin to tell its story.
 
