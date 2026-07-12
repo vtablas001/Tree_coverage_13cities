@@ -143,29 +143,29 @@ Across the five selected forest front AOIs, the analysis found an approximate ne
 
 This aggregated result is intended as a comparative analytical signal across the selected AOIs, not as an official country-level estimate.
 
-### Forest Fronts Timelapse Examples
+## Complete GIF Gallery
 
-![Bolivia forest front](gifs/frentes/bolivia_bosque_timelapse_trienios_2012.gif)
+The repository includes the full lightweight visual set used for communication and review: **5 forest/biome front GIFs** and **5 capital city GIFs**.
 
-![Colombia forest front](gifs/frentes/colombia_bosque_timelapse_trienios_2012.gif)
+### Forest Fronts and Biomes
 
-![Guatemala forest front](gifs/frentes/guatemala_bosque_timelapse_trienios_2012.gif)
+| Country | Biome / forest front | Timelapse |
+| --- | --- | --- |
+| Bolivia | Chiquitano dry forests | ![Bolivia forest front](gifs/frentes/bolivia_bosque_timelapse_trienios_2012.gif) |
+| Colombia | Northwestern Amazon moist forests | ![Colombia forest front](gifs/frentes/colombia_bosque_timelapse_trienios_2012.gif) |
+| Guatemala | Peten-Veracruz moist forests | ![Guatemala forest front](gifs/frentes/guatemala_bosque_timelapse_trienios_2012.gif) |
+| Honduras | Central American Atlantic moist forests | ![Honduras forest front](gifs/frentes/honduras_bosque_timelapse_trienios_2012.gif) |
+| Paraguay | Western Chaco dry forests | ![Paraguay forest front](gifs/frentes/paraguay_bosque_timelapse_trienios_2012.gif) |
 
-![Honduras forest front](gifs/frentes/honduras_bosque_timelapse_trienios_2012.gif)
+### Capital Cities
 
-![Paraguay forest front](gifs/frentes/paraguay_bosque_timelapse_trienios_2012.gif)
-
-### Capital City Timelapse Examples
-
-![La Paz dense vegetation](gifs/capitales/bolivia_la_paz_vegetacion_densa_trienios_2012.gif)
-
-![Bogota dense vegetation](gifs/capitales/colombia_bogota_vegetacion_densa_trienios_2012.gif)
-
-![Guatemala City dense vegetation](gifs/capitales/guatemala_ciudad_de_guatemala_vegetacion_densa_trienios_2012.gif)
-
-![Tegucigalpa dense vegetation](gifs/capitales/honduras_tegucigalpa_vegetacion_densa_trienios_2012.gif)
-
-![Asuncion dense vegetation](gifs/capitales/paraguay_asuncion_vegetacion_densa_trienios_2012.gif)
+| Country | Capital city | Timelapse |
+| --- | --- | --- |
+| Bolivia | La Paz | ![La Paz dense vegetation](gifs/capitales/bolivia_la_paz_vegetacion_densa_trienios_2012.gif) |
+| Colombia | Bogota | ![Bogota dense vegetation](gifs/capitales/colombia_bogota_vegetacion_densa_trienios_2012.gif) |
+| Guatemala | Guatemala City | ![Guatemala City dense vegetation](gifs/capitales/guatemala_ciudad_de_guatemala_vegetacion_densa_trienios_2012.gif) |
+| Honduras | Tegucigalpa | ![Tegucigalpa dense vegetation](gifs/capitales/honduras_tegucigalpa_vegetacion_densa_trienios_2012.gif) |
+| Paraguay | Asuncion | ![Asuncion dense vegetation](gifs/capitales/paraguay_asuncion_vegetacion_densa_trienios_2012.gif) |
 
 ## How to Interpret the Outputs
 
