@@ -1,0 +1,31 @@
+pais,capital,slug,epoca,anio_inicio,anio_fin,escenario,escenas_landsat,area_bosque_probable_km2,area_bosque_probable_ha,area_bosque_probable_canchas
+Bolivia,La Paz,bolivia_la_paz,2012-2014,2012,2014,estricto,139,0.1725,17.25,24.0
+Bolivia,La Paz,bolivia_la_paz,2015-2017,2015,2017,estricto,182,0.0952,9.52,13.0
+Bolivia,La Paz,bolivia_la_paz,2018-2020,2018,2020,estricto,188,0.3817,38.17,53.0
+Bolivia,La Paz,bolivia_la_paz,2021-2023,2021,2023,estricto,275,0.3398,33.98,48.0
+Bolivia,La Paz,bolivia_la_paz,2024-2026,2024,2026,estricto,151,0.8234,82.34,115.0
+Bolivia,La Paz,bolivia_la_paz,saldo_2012_2014_vs_2024_2026,,,estricto,,0.6509,65.09,91.0
+Colombia,Bogota,colombia_bogota,2012-2014,2012,2014,estricto,49,325.0566,32505.66,45526.0
+Colombia,Bogota,colombia_bogota,2015-2017,2015,2017,estricto,70,301.8389,30183.89,42274.0
+Colombia,Bogota,colombia_bogota,2018-2020,2018,2020,estricto,68,330.9942,33099.42,46358.0
+Colombia,Bogota,colombia_bogota,2021-2023,2021,2023,estricto,121,452.2882,45228.82,63346.0
+Colombia,Bogota,colombia_bogota,2024-2026,2024,2026,estricto,74,381.9644,38196.44,53496.0
+Colombia,Bogota,colombia_bogota,saldo_2012_2014_vs_2024_2026,,,estricto,,56.9078,5690.78,7970.0
+Guatemala,Ciudad de Guatemala,guatemala_ciudad_de_guatemala,2012-2014,2012,2014,estricto,71,444.2686,44426.86,62222.0
+Guatemala,Ciudad de Guatemala,guatemala_ciudad_de_guatemala,2015-2017,2015,2017,estricto,102,411.6173,41161.73,57649.0
+Guatemala,Ciudad de Guatemala,guatemala_ciudad_de_guatemala,2018-2020,2018,2020,estricto,111,405.1981,40519.81,56750.0
+Guatemala,Ciudad de Guatemala,guatemala_ciudad_de_guatemala,2021-2023,2021,2023,estricto,161,482.4062,48240.62,67564.0
+Guatemala,Ciudad de Guatemala,guatemala_ciudad_de_guatemala,2024-2026,2024,2026,estricto,85,380.485,38048.5,53289.0
+Guatemala,Ciudad de Guatemala,guatemala_ciudad_de_guatemala,saldo_2012_2014_vs_2024_2026,,,estricto,,-63.7836,-6378.36,-8933.0
+Honduras,Tegucigalpa,honduras_tegucigalpa,2012-2014,2012,2014,estricto,156,421.135,42113.5,58982.0
+Honduras,Tegucigalpa,honduras_tegucigalpa,2015-2017,2015,2017,estricto,230,440.2855,44028.55,61665.0
+Honduras,Tegucigalpa,honduras_tegucigalpa,2018-2020,2018,2020,estricto,249,380.8488,38084.88,53340.0
+Honduras,Tegucigalpa,honduras_tegucigalpa,2021-2023,2021,2023,estricto,297,512.7862,51278.62,71819.0
+Honduras,Tegucigalpa,honduras_tegucigalpa,2024-2026,2024,2026,estricto,208,434.4291,43442.91,60844.0
+Honduras,Tegucigalpa,honduras_tegucigalpa,saldo_2012_2014_vs_2024_2026,,,estricto,,13.2941,1329.41,1862.0
+Paraguay,Asuncion,paraguay_asuncion,2012-2014,2012,2014,estricto,125,320.8252,32082.52,44934.0
+Paraguay,Asuncion,paraguay_asuncion,2015-2017,2015,2017,estricto,163,371.9871,37198.71,52099.0
+Paraguay,Asuncion,paraguay_asuncion,2018-2020,2018,2020,estricto,161,311.6149,31161.49,43644.0
+Paraguay,Asuncion,paraguay_asuncion,2021-2023,2021,2023,estricto,245,353.8687,35386.87,49561.0
+Paraguay,Asuncion,paraguay_asuncion,2024-2026,2024,2026,estricto,143,359.5945,35959.45,50363.0
+Paraguay,Asuncion,paraguay_asuncion,saldo_2012_2014_vs_2024_2026,,,estricto,,38.7693,3876.93,5430.0

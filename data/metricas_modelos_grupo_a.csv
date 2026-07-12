@@ -1,0 +1,4 @@
+bioma,aois_entrenamiento,modelo_path,treecover_umbral_pct,muestras_train,muestras_test,matriz_confusion,overall_accuracy,kappa,precision_bosque_probable,recall_bosque_probable,f1_bosque_probable
+HUMEDO_NORTE,"guatemala,honduras,nicaragua",C:\Users\victo\Documents\Sandbox\DENSIDAD DE BOSQUES\modelos\rf_humedo_norte_treecover2000.pkl,50,60000,46853,"[[15102, 1751], [1700, 28300]]",0.926344097496425,0.8399919025798612,0.9417323882732688,0.9433333333333334,0.9425321809795008
+HUMEDO_SUR,"colombia,panama",C:\Users\victo\Documents\Sandbox\DENSIDAD DE BOSQUES\modelos\rf_humedo_sur_treecover2000.pkl,50,60000,31965,"[[1393, 572], [843, 29157]]",0.9557328327858595,0.6395905862177238,0.9807595277338625,0.9719,0.976309665321703
+SECO,"bolivia,paraguay",C:\Users\victo\Documents\Sandbox\DENSIDAD DE BOSQUES\modelos\rf_seco_treecover2000.pkl,40,60000,39684,"[[28825, 1175], [566, 9118]]",0.9561284144743474,0.8835719663472376,0.8858447488584474,0.9415530772408096,0.9128497772438304

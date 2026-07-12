@@ -1,0 +1,24 @@
+# Archivos pesados o locales
+*.tif
+*.tiff
+*.pth
+*.pt
+*.ckpt
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+data/raw/
+data/processed/
+models/
+outputs/
+.venv/
+__pycache__/
+*.pyc
+
+# Credenciales locales
+*.json
+*.pem
+*.key
+.env
