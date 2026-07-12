@@ -12,6 +12,30 @@ The work moves beyond simply looking at RGB images. It combines cloud-screened s
 
 This is not an official forest inventory. It is an applied AI workflow for asking better questions of Earth observation data and translating the answers for technical, non-technical, and policy audiences.
 
+## See the Change
+
+These time-lapse GIFs are the fastest way into the project. They show the validated triennial comparison from 2012-2014 through 2024-2026, making it possible to scan more than a decade of modeled vegetation patterns in a few seconds. The full research archive extends back to 1992; this lightweight visual set focuses on the more comparable recent analytical window.
+
+### Forest Fronts and Biomes
+
+| Country | Biome / forest front | Timelapse |
+| --- | --- | --- |
+| Bolivia | Chiquitano dry forests | ![Bolivia forest front](gifs/frentes/bolivia_bosque_timelapse_trienios_2012.gif) |
+| Colombia | Northwestern Amazon moist forests | ![Colombia forest front](gifs/frentes/colombia_bosque_timelapse_trienios_2012.gif) |
+| Guatemala | Peten-Veracruz moist forests | ![Guatemala forest front](gifs/frentes/guatemala_bosque_timelapse_trienios_2012.gif) |
+| Honduras | Central American Atlantic moist forests | ![Honduras forest front](gifs/frentes/honduras_bosque_timelapse_trienios_2012.gif) |
+| Paraguay | Western Chaco dry forests | ![Paraguay forest front](gifs/frentes/paraguay_bosque_timelapse_trienios_2012.gif) |
+
+### Capital Cities
+
+| Country | Capital city | Timelapse |
+| --- | --- | --- |
+| Bolivia | La Paz | ![La Paz dense vegetation](gifs/capitales/bolivia_la_paz_vegetacion_densa_trienios_2012.gif) |
+| Colombia | Bogota | ![Bogota dense vegetation](gifs/capitales/colombia_bogota_vegetacion_densa_trienios_2012.gif) |
+| Guatemala | Guatemala City | ![Guatemala City dense vegetation](gifs/capitales/guatemala_ciudad_de_guatemala_vegetacion_densa_trienios_2012.gif) |
+| Honduras | Tegucigalpa | ![Tegucigalpa dense vegetation](gifs/capitales/honduras_tegucigalpa_vegetacion_densa_trienios_2012.gif) |
+| Paraguay | Asuncion | ![Asuncion dense vegetation](gifs/capitales/paraguay_asuncion_vegetacion_densa_trienios_2012.gif) |
+
 ## At a Glance
 
 | Dimension | Project scope |
@@ -178,30 +202,6 @@ The capital results tell a different story. Four of the five selected urban/peri
 | Asuncion | 320.83 | 359.59 | +38.77 |
 
 The contrast is the point: **where an AOI is placed can change the environmental story**. A capital may gain parks, irrigated vegetation, secondary growth, or seasonal greenness while a distant agricultural frontier loses mature forest. AI can reveal the pattern, but geography gives it meaning.
-
-## Visual Time Series
-
-The GIFs are designed to communicate the time series in a few seconds. They show the validated triennial comparison from 2012-2014 through 2024-2026. The full research archive extends back to 1992; these lightweight GIFs focus on the more comparable recent analytical window.
-
-### Forest Fronts and Biomes
-
-| Country | Biome / forest front | Timelapse |
-| --- | --- | --- |
-| Bolivia | Chiquitano dry forests | ![Bolivia forest front](gifs/frentes/bolivia_bosque_timelapse_trienios_2012.gif) |
-| Colombia | Northwestern Amazon moist forests | ![Colombia forest front](gifs/frentes/colombia_bosque_timelapse_trienios_2012.gif) |
-| Guatemala | Peten-Veracruz moist forests | ![Guatemala forest front](gifs/frentes/guatemala_bosque_timelapse_trienios_2012.gif) |
-| Honduras | Central American Atlantic moist forests | ![Honduras forest front](gifs/frentes/honduras_bosque_timelapse_trienios_2012.gif) |
-| Paraguay | Western Chaco dry forests | ![Paraguay forest front](gifs/frentes/paraguay_bosque_timelapse_trienios_2012.gif) |
-
-### Capital Cities
-
-| Country | Capital city | Timelapse |
-| --- | --- | --- |
-| Bolivia | La Paz | ![La Paz dense vegetation](gifs/capitales/bolivia_la_paz_vegetacion_densa_trienios_2012.gif) |
-| Colombia | Bogota | ![Bogota dense vegetation](gifs/capitales/colombia_bogota_vegetacion_densa_trienios_2012.gif) |
-| Guatemala | Guatemala City | ![Guatemala City dense vegetation](gifs/capitales/guatemala_ciudad_de_guatemala_vegetacion_densa_trienios_2012.gif) |
-| Honduras | Tegucigalpa | ![Tegucigalpa dense vegetation](gifs/capitales/honduras_tegucigalpa_vegetacion_densa_trienios_2012.gif) |
-| Paraguay | Asuncion | ![Asuncion dense vegetation](gifs/capitales/paraguay_asuncion_vegetacion_densa_trienios_2012.gif) |
 
 ## Repository Contents
 
