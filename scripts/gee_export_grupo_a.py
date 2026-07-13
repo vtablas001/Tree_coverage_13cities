@@ -54,13 +54,13 @@ class SensorSpec:
 
 
 AOIS = (
-    AoiGrupoA("Bolivia", "bolivia", "SECO", "Vegetación seca chiquitana", -17.50, -62.30),
-    AoiGrupoA("Colombia", "colombia", "HUMEDO_SUR", "Vegetación húmeda amazónica del noroeste", 1.80, -74.50),
-    AoiGrupoA("Guatemala", "guatemala", "HUMEDO_NORTE", "Vegetación húmeda Petén-Veracruz", 16.80, -89.60),
-    AoiGrupoA("Honduras", "honduras", "HUMEDO_NORTE", "Vegetación húmeda atlántica centroamericana", 15.20, -84.80),
-    AoiGrupoA("Nicaragua", "nicaragua", "HUMEDO_NORTE", "Vegetación húmeda atlántica centroamericana", 13.80, -84.20),
-    AoiGrupoA("Panama", "panama", "HUMEDO_SUR", "Vegetación húmeda Chocó-Darién", 8.00, -77.60),
-    AoiGrupoA("Paraguay", "paraguay", "SECO", "Vegetación seca del Chaco occidental", -22.35, -60.04),
+    AoiGrupoA("Bolivia", "bolivia", "SECO", "Bosque seco chiquitano", -17.50, -62.30),
+    AoiGrupoA("Colombia", "colombia", "HUMEDO_SUR", "Bosque húmedo amazónico del noroeste", 1.80, -74.50),
+    AoiGrupoA("Guatemala", "guatemala", "HUMEDO_NORTE", "Bosque húmedo Petén-Veracruz", 16.80, -89.60),
+    AoiGrupoA("Honduras", "honduras", "HUMEDO_NORTE", "Bosque húmedo atlántico centroamericano", 15.20, -84.80),
+    AoiGrupoA("Nicaragua", "nicaragua", "HUMEDO_NORTE", "Bosque húmedo atlántico centroamericano", 13.80, -84.20),
+    AoiGrupoA("Panama", "panama", "HUMEDO_SUR", "Bosque húmedo Chocó-Darién", 8.00, -77.60),
+    AoiGrupoA("Paraguay", "paraguay", "SECO", "Bosque seco del Chaco occidental", -22.35, -60.04),
 )
 
 SENSORS = {

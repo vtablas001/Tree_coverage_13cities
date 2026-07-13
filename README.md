@@ -28,11 +28,11 @@ The animated chart below follows the aggregate dense-vegetation area for the fiv
 
 | Country | Biome / vegetation front | Timelapse |
 | --- | --- | --- |
-| Bolivia | Chiquitano dry vegetation | ![Bolivia vegetation front](gifs/frentes/bolivia_vegetacion_timelapse_trienios_2012.gif) |
-| Colombia | Northwestern Amazon moist vegetation | ![Colombia vegetation front](gifs/frentes/colombia_vegetacion_timelapse_trienios_2012.gif) |
-| Guatemala | Peten-Veracruz moist vegetation | ![Guatemala vegetation front](gifs/frentes/guatemala_vegetacion_timelapse_trienios_2012.gif) |
-| Honduras | Central American Atlantic moist vegetation | ![Honduras vegetation front](gifs/frentes/honduras_vegetacion_timelapse_trienios_2012.gif) |
-| Paraguay | Western Chaco dry vegetation | ![Paraguay vegetation front](gifs/frentes/paraguay_vegetacion_timelapse_trienios_2012.gif) |
+| Bolivia | Chiquitano dry forest | ![Bolivia vegetation front](gifs/frentes/bolivia_vegetacion_timelapse_trienios_2012.gif) |
+| Colombia | Northwestern Amazon moist forest | ![Colombia vegetation front](gifs/frentes/colombia_vegetacion_timelapse_trienios_2012.gif) |
+| Guatemala | Peten-Veracruz moist forest | ![Guatemala vegetation front](gifs/frentes/guatemala_vegetacion_timelapse_trienios_2012.gif) |
+| Honduras | Central American Atlantic moist forest | ![Honduras vegetation front](gifs/frentes/honduras_vegetacion_timelapse_trienios_2012.gif) |
+| Paraguay | Western Chaco dry forest | ![Paraguay vegetation front](gifs/frentes/paraguay_vegetacion_timelapse_trienios_2012.gif) |
 
 ### Capital Cities
 
@@ -186,16 +186,16 @@ Each AOI covers approximately **1,000 km2**. Frontier AOIs were placed where lan
 
 Across the five selected forest-front AOIs, the model indicates an approximate net reduction of:
 
-> **559.93 km2 of probable forest cover**, equivalent to **55,993 hectares** or approximately **78,421 professional soccer fields**.
+> **545.02 km2 of probable forest cover**, equivalent to **54,502 hectares** or approximately **76,334 professional soccer fields**.
 
 | Forest front | Comparison baseline | Baseline km2 | Latest km2 | Net reduction km2 |
 | --- | --- | ---: | ---: | ---: |
 | Bolivia | 2012-2014 | 313.56 | 171.84 | 141.72 |
-| Colombia | 2012-2014 | 731.34 | 648.44 | 82.91 |
+| Colombia | 2012-2014 | 716.43 | 648.44 | 68.00 |
 | Guatemala | 2012-2014 | 699.55 | 524.25 | 175.30 |
 | Honduras | 2012-2014 | 995.61 | 929.63 | 65.99 |
 | Paraguay | 2015-2017 | 283.03 | 189.02 | 94.01 |
-| **Combined** | Mixed baseline |  |  | **559.93** |
+| **Combined** | Mixed baseline |  |  | **545.02** |
 
 For Paraguay's Chaco AOI, **2015-2017** is the preferred baseline because it produced a more internally consistent reference than 2012-2014 for that dry and highly seasonal landscape.
 
