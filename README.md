@@ -186,16 +186,16 @@ Each AOI covers approximately **1,000 km2**. Frontier AOIs were placed where lan
 
 Across the five selected forest-front AOIs, the model indicates an approximate net reduction of:
 
-> **635.13 km2 of probable forest cover**, equivalent to **63,513 hectares** or approximately **88,955 professional soccer fields**.
+> **542.83 km2 of probable forest cover**, equivalent to **54,283 hectares** or approximately **76,027 professional soccer fields**.
 
 | Forest front | Comparison baseline | Baseline km2 | Latest km2 | Net reduction km2 |
 | --- | --- | ---: | ---: | ---: |
 | Bolivia | 2012-2014 | 313.56 | 171.84 | 141.72 |
 | Colombia | 2012-2014 | 714.24 | 648.44 | 65.80 |
 | Guatemala | 2012-2014 | 699.55 | 524.25 | 175.30 |
-| Honduras | 2012-2014 | 995.61 | 837.31 | 158.30 |
+| Honduras | 2012-2014 | 995.61 | 929.63 | 65.99 |
 | Paraguay | 2015-2017 | 283.03 | 189.02 | 94.01 |
-| **Combined** | Mixed baseline |  |  | **635.13** |
+| **Combined** | Mixed baseline |  |  | **542.83** |
 
 For Paraguay's Chaco AOI, **2015-2017** is the preferred baseline because it produced a more internally consistent reference than 2012-2014 for that dry and highly seasonal landscape.
 

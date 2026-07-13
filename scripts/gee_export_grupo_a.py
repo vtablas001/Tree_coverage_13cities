@@ -117,6 +117,13 @@ def sensor_for_year(year: int) -> SensorSpec:
     return SENSORS["landsat9"]
 
 
+def sensors_for_year(year: int) -> tuple[SensorSpec, ...]:
+    if year >= 2021:
+        # Landsat 8 sigue activo; combinarlo con Landsat 9 reduce huecos por nubes en zonas humedas.
+        return (SENSORS["landsat8"], SENSORS["landsat9"])
+    return (sensor_for_year(year),)
+
+
 def mask_and_scale(img: ee.Image, sensor: SensorSpec) -> ee.Image:
     qa = img.select("QA_PIXEL")
     clear = (
@@ -137,14 +144,17 @@ def mask_and_scale(img: ee.Image, sensor: SensorSpec) -> ee.Image:
 
 
 def yearly_collection(year: int, geom: ee.Geometry, cloud: float) -> ee.ImageCollection:
-    sensor = sensor_for_year(year)
-    return (
-        ee.ImageCollection(sensor.collection)
-        .filterBounds(geom)
-        .filterDate(f"{year}-01-01", f"{year}-12-31")
-        .filter(ee.Filter.lt("CLOUD_COVER", cloud))
-        .map(lambda img, s=sensor: mask_and_scale(img, s))
-    )
+    merged = ee.ImageCollection([])
+    for sensor in sensors_for_year(year):
+        col = (
+            ee.ImageCollection(sensor.collection)
+            .filterBounds(geom)
+            .filterDate(f"{year}-01-01", f"{year}-12-31")
+            .filter(ee.Filter.lt("CLOUD_COVER", cloud))
+            .map(lambda img, s=sensor: mask_and_scale(img, s))
+        )
+        merged = merged.merge(col)
+    return merged
 
 
 def period_image(start: int, end: int, geom: ee.Geometry, cloud: float) -> tuple[ee.Image, int]:
