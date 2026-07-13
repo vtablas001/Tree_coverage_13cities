@@ -16,15 +16,15 @@ This is not an official forest inventory. It is an applied AI workflow for askin
 
 These time-lapse GIFs are the fastest way into the project. They show the validated triennial comparison from 2012-2014 through 2024-2026, making it possible to scan more than a decade of modeled vegetation patterns in a few seconds. The full research archive extends back to 1992; this lightweight visual set focuses on the more comparable recent analytical window.
 
-### Forest Fronts and Biomes
+### Vegetation Fronts and Biomes
 
-| Country | Biome / forest front | Timelapse |
+| Country | Biome / vegetation front | Timelapse |
 | --- | --- | --- |
-| Bolivia | Chiquitano dry forests | ![Bolivia forest front](gifs/frentes/bolivia_bosque_timelapse_trienios_2012.gif) |
-| Colombia | Northwestern Amazon moist forests | ![Colombia forest front](gifs/frentes/colombia_bosque_timelapse_trienios_2012.gif) |
-| Guatemala | Peten-Veracruz moist forests | ![Guatemala forest front](gifs/frentes/guatemala_bosque_timelapse_trienios_2012.gif) |
-| Honduras | Central American Atlantic moist forests | ![Honduras forest front](gifs/frentes/honduras_bosque_timelapse_trienios_2012.gif) |
-| Paraguay | Western Chaco dry forests | ![Paraguay forest front](gifs/frentes/paraguay_bosque_timelapse_trienios_2012.gif) |
+| Bolivia | Chiquitano dry vegetation | ![Bolivia vegetation front](gifs/frentes/bolivia_vegetacion_timelapse_trienios_2012.gif) |
+| Colombia | Northwestern Amazon moist vegetation | ![Colombia vegetation front](gifs/frentes/colombia_vegetacion_timelapse_trienios_2012.gif) |
+| Guatemala | Peten-Veracruz moist vegetation | ![Guatemala vegetation front](gifs/frentes/guatemala_vegetacion_timelapse_trienios_2012.gif) |
+| Honduras | Central American Atlantic moist vegetation | ![Honduras vegetation front](gifs/frentes/honduras_vegetacion_timelapse_trienios_2012.gif) |
+| Paraguay | Western Chaco dry vegetation | ![Paraguay vegetation front](gifs/frentes/paraguay_vegetacion_timelapse_trienios_2012.gif) |
 
 ### Capital Cities
 

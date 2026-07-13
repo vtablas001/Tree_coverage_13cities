@@ -82,7 +82,7 @@ def render_frame(
     draw.text((44, 36), f"{capital.capital}, {capital.pais}", font=font(32, True), fill=(255, 255, 255, 245))
     draw.text((44, 78), "Capital | AOI 1000 km2", font=font(20), fill=(245, 245, 245, 235))
     draw.text((724, 36), epoca, font=font(30, True), fill=(255, 255, 255, 245))
-    draw.text((526, 884), f"Vegetacion densa probable: {area_km2:.2f} km2", font=font(23, True), fill=(235, 255, 240, 245))
+    draw.text((526, 884), f"Vegetación densa probable: {area_km2:.2f} km2", font=font(23, True), fill=(235, 255, 240, 245))
     draw.text((526, 922), f"Equivalente: {area_km2 / FIELD_KM2:,.0f} canchas", font=font(23), fill=(245, 245, 245, 235))
     draw_scale_bar(draw, 44, 920)
 

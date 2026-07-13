@@ -158,7 +158,7 @@ def render_png(mask: np.ndarray, composite_path: Path, output_path: Path, pais: 
     draw.text((44, 36), pais, font=font(34, True), fill=(255, 255, 255, 245))
     draw.text((44, 78), ecorregion, font=font(20), fill=(245, 245, 245, 235))
     draw.text((706, 36), epoca, font=font(30, True), fill=(255, 255, 255, 245))
-    draw.text((552, 884), f"Bosque probable: {area_km2:.2f} km2", font=font(24, True), fill=(235, 255, 240, 245))
+    draw.text((552, 884), f"Vegetación densa probable: {area_km2:.2f} km2", font=font(22, True), fill=(235, 255, 240, 245))
     draw.text((552, 922), f"Equivalente: {canchas:,.0f} canchas", font=font(23), fill=(245, 245, 245, 235))
     draw_scale_bar(draw, 44, 920)
 
@@ -252,10 +252,10 @@ def infer_aoi(item, upload_gifs: bool, periods: tuple[tuple[int, int], ...], out
             "classified_tif": str(classified_path),
             "png_mapa": str(png_path),
         })
-        print(f"{item.pais} {epoca}: {area_km2:.2f} km2 de bosque probable")
+        print(f"{item.pais} {epoca}: {area_km2:.2f} km2 de vegetación densa probable")
 
     if frame_paths:
-        gif_path = GIF_DIR / f"{item.slug}_bosque_timelapse{output_suffix}.gif"
+        gif_path = GIF_DIR / f"{item.slug}_vegetacion_timelapse{output_suffix}.gif"
         make_gif(frame_paths, gif_path)
         if upload_gifs:
             upload_s3(gif_path)
@@ -307,7 +307,7 @@ def add_aggregates(rows: list[dict[str, object]], periods: tuple[tuple[int, int]
         output.append({
             "pais": "AGREGADO_GRUPO_A",
             "bioma": "MIXTO",
-            "ecorregion": "7 AOIs forestales Grupo A",
+            "ecorregion": "7 AOIs de vegetación Grupo A",
             "epoca": epoca,
             "anio_inicio": epoca[:4],
             "anio_fin": epoca[-4:],
@@ -325,7 +325,7 @@ def add_aggregates(rows: list[dict[str, object]], periods: tuple[tuple[int, int]
 
 
 def args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Clasifica bosque probable Grupo A, calcula estadisticas y genera GIFs.")
+    parser = argparse.ArgumentParser(description="Clasifica vegetación densa probable, calcula estadísticas y genera GIFs.")
     parser.add_argument("--countries", nargs="*", default=None, help="Slugs a procesar.")
     parser.add_argument("--period-mode", choices=("standard", "trienios_2012"), default="standard")
     parser.add_argument("--no-s3", action="store_true", help="No intenta subir GIFs a S3.")
